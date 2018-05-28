@@ -1,0 +1,19 @@
+{
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Launch Test",
+                "program": "E:\\VBXSUITE\\nodejs\\filestorage\\FileStorage\\test.js",
+                "cwd": "${workspaceRoot}"
+            },
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Launch Program",
+                "program": "E:\\VBXSUITE\\nodejs\\filestorage\\FileStorage\\test.js",
+                "cwd": "${workspaceRoot}"
+            }
+        ]
+    }
