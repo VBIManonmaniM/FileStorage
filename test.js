@@ -3,23 +3,55 @@ const fs = require('fs');
 
 
 let storage = new StorageApi();
-storage.open('1.png').then((result) => {
-    result.stream.pipe(fs.createWriteStream('./localfiles/1.png'));
-}, (err) => {
-});
+// storage.open('33.png','open').then((result) => {
+//     result.stream.pipe(fs.createWriteStream('./localfiles/' + result.fileName));
+// }, (err) => {
+// });
 
-storage.open('2.txt').then((result) => {
-    result.stream.pipe(fs.createWriteStream('./localfiles/2.txt'));
-}, (err) => {
-});
+// storage.save('1.png' , null , fs.createReadStream('./localfiles/1.png')).then((result) => {
+//     //result.stream.pipe(fs.createWriteStream('./localfiles/' + result.fileName));
+// }, (err) => {
+// });
 
-storage.open('3.png').then((result) => {
-    result.stream.pipe(fs.createWriteStream('./localfiles/3.png'));
-}, (err) => {
-});
+// storage.save('1.png' , 'img' , fs.createReadStream('./localfiles/1.png')).then((result) => {
+//     //result.stream.pipe(fs.createWriteStream('./localfiles/' + result.fileName));
+// }, (err) => {
+// });
+
+// storage.save('1.png' , 'img-new' , fs.createReadStream('./localfiles/1.png')).then((result) => {
+//     //result.stream.pipe(fs.createWriteStream('./localfiles/' + result.fileName));
+// }, (err) => {
+// });
 
 
-storage.save("4.png", fs.createReadStream("./localfiles/4.png")).then((result) => {
+// storage.delete('3.png' , 'ope1n').then((result) => {
+//     debugger
+// }, (err) => {
+//     debugger
+// });
+
+
+// storage.rename("4.png", "55.png","open1").then((result) => {
+//     debugger
+// }, (err) => {
+//     debugger
+// });
+
+
+// storage.getAttributes("3.png" , "sss").then((result) => {
+//     debugger
+// }, (err) => {
+//     debugger
+// });
+
+storage.removeDirectory("open").then((result) => {
     debugger
 }, (err) => {
+    debugger
 });
+
+// storage.createDirectory("mano").then( (result) => {
+//     debugger
+// }, (err) => {
+//     debugger
+// });
