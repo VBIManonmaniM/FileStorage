@@ -5,14 +5,14 @@
                 "type": "node",
                 "request": "launch",
                 "name": "Launch Test",
-                "program": "E:\\VBXSUITE\\nodejs\\filestorage\\FileStorage\\test.js",
+                "program": "E:\\VBXSUITE\\nodejs\\filestorage\\FileStorage\\example.js",
                 "cwd": "${workspaceRoot}"
             },
             {
                 "type": "node",
                 "request": "launch",
                 "name": "Launch Program",
-                "program": "E:\\VBXSUITE\\nodejs\\filestorage\\FileStorage\\test.js",
+                "program": "E:\\VBXSUITE\\nodejs\\filestorage\\FileStorage\\example.js",
                 "cwd": "${workspaceRoot}"
             }
         ]

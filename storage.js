@@ -174,4 +174,4 @@ class StorageApi extends FileSystemClient {
         super();
     }
 }
-module.exports = StorageApi;
+module.exports = {StorageApi : StorageApi , MongoDBClient : MongoDBClient};
